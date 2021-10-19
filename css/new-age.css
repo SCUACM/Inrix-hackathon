@@ -36,12 +36,21 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #8dc442;
+  color: #002d72;
   text-decoration: underline;
 }
 a:hover,
 a:focus {
-  color: #307682;
+  color: grey;
+}
+.email {
+  color: grey !important;
+}
+.email:hover {
+  color: rgb(110, 110, 110);
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
 }
 hr {
   max-width: 100px;
@@ -75,25 +84,36 @@ p {
   padding-left: 0;
 }
 .btn-outline {
-  color: #0d544e;
-  background-color: #8dc442;
+  color: white;
+  background-color: #002d72;
   /*border-color: #307682;
   border: 1px solid;*/
+}
+.btn-special{
+  background-color: white;
+  color: #002d72;
+}
+.btn-special-text{
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+  color: #002d72;
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #0d544e;
+  color: #002d72;
   background-color: white;
-  /*border-color: #8dc442;*/
+  /*border-color: #002d72;*/
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
-  color: #0d544e;
+  color: white;
 }
 .btn-xl {
   padding: 15px 45px;
@@ -108,7 +128,7 @@ p {
   background: #232a35;
 }
 ::selection {
-  color: #8dc442;
+  color: red;
   /*background-color: #fff;*/
   text-shadow: none;
 }
@@ -121,7 +141,6 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #8dc442;
 }
 .logo {
   width: 75%;
@@ -148,11 +167,11 @@ body {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #8dc442;
+  color: #002d72;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #8dc442;
+  color: #002d72;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
@@ -167,15 +186,15 @@ body {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #8dc442;
+  color: #002d72;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #8dc442;
+  color: #002d72;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #8dc442;
+  color: #002d72;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -183,8 +202,8 @@ body {
   background-color: transparent;
 }
 @media (min-width: 768px) {
-  .navbar-default {
-    background-color: transparent;
+  /* .navbar-default {
+    background-color: white;
     border-color: transparent;
   }
   .navbar-default .navbar-header .navbar-brand {
@@ -198,11 +217,11 @@ body {
   .navbar-default .nav > li > a:focus {
     color: rgba(255, 255, 255, 0.7);
   }
-  .navbar-default .nav > li > a:hover,
+  /*.navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
-  }
-  .navbar-default.affix {
+  }*/
+   .navbar-default.affix {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.1);
   }
@@ -211,7 +230,7 @@ body {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #8dc442;
+    color: #002d72;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -219,7 +238,7 @@ body {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #8dc442;
+    color: #002d72;
   }
 }
 
@@ -234,9 +253,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background-image: url("../img/hackForHumanity.jpg");
-  background-repeat: no-repeat;
+  background-image: url("https://inrix.com/wp-content/uploads/2020/01/Connected-World.png?x25647");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
@@ -651,13 +672,13 @@ a.no-decor {
 }
 
 .bg-primary {
-  background: #0d544e;
+  background: #002d72;
 }
 
 .page-scroll::selection,
 .page-scroll.active,
 .page-scroll:hover{
-  color: #8dc442;
+  color: #002d72;
 }
 
 .carousel-caption{
