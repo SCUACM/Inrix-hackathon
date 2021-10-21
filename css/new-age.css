@@ -250,12 +250,12 @@ body {
 
 header {
   position: relative;
+  min-height: 100%;
   width: 100%;
-  min-height: auto;
   overflow-y: hidden;
-  background-image: url("https://inrix.com/wp-content/uploads/2020/01/Connected-World.png?x25647");
+  background-image: url('../img/Connected-World.png');
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,7 +263,7 @@ header {
 }
 header .header-content {
   text-align: center;
-  padding: 150px 0 50px;
+  padding: 650px 0 50px;
   position: relative;
 }
 header .header-content .header-content-inner {
