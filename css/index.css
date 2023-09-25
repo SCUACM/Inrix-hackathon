@@ -13,3 +13,13 @@
 	padding: 12px 45px;
 	background-color: rgba(140, 197, 47, 0.8);
 }
+
+/** HERO **/
+
+.hero {
+  background: url("../img/hero2023.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
