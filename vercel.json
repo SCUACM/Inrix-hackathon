@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/(.*)", "destination": "/", "permanent": true }
+    { "source": "/(.*)", "destination": "https://inrix.scuacm.com/", "permanent": true }
   ]
 }
